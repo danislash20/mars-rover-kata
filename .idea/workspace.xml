@@ -25,9 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed289b19-95b2-4f09-aa71-bc10ae0ec63b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RunManager" selected="JUnit.ThingTest">
@@ -192,7 +190,19 @@
       <option name="presentableId" value="Default" />
       <updated>1576618551579</updated>
     </task>
+    <task id="LOCAL-00001" summary="keep on running">
+      <created>1576620080383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576620080383</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="keep on running" />
+    <option name="LAST_COMMIT_MESSAGE" value="keep on running" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576619655010">
@@ -207,6 +217,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1576618933310" />
+    <state x="424" y="6" key="CommitChangelistDialog2" timestamp="1576620079908">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="424" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576620079908" />
     <state width="1493" height="362" key="GridCell.Tab.0.bottom" timestamp="1576620044587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -239,10 +253,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576619843581" />
-    <state x="277" y="54" key="SettingsEditor" timestamp="1576619613530">
+    <state x="277" y="54" key="SettingsEditor" timestamp="1576620212073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576619613530" />
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576620212073" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
