@@ -15,4 +15,10 @@ public class ThingTest {
     void it_should_not_fail() {
         assertTrue(true);
     }
+
+    @Test
+    public void no__fail2(){
+        String value = "Dog";
+        assertEquals("dog", value);
+    }
 }
