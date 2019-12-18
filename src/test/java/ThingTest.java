@@ -1,3 +1,5 @@
+import com.example.Position;
+import com.example.Rover;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -5,14 +7,50 @@ import static org.junit.jupiter.api.Assertions.*;
 public class ThingTest {
 
     @Test
-    void fail() {
-        Thing thing = new Thing();
-        String value = thing.callForAction();
-        assertEquals("Food", value);
+    public void rover_has_a_starting_point(){
+        int x=0,y=0;
+        Position position = Position.NORTH;
+        Rover rover = new Rover(x,y,position);
+        Rover rover2 = new Rover(x,y,position);
+
+        assertEquals(rover2, rover);
     }
 
     @Test
-    void it_should_not_fail() {
-        assertTrue(true);
+    public void rover_moves_forward(){
+        int x=0,y=0;
+        Position position = Position.NORTH;
+        Rover rover = new Rover(x,y,position);
+        Rover roverInExpectedPosition = new Rover(x,1,position);
+
+        rover = rover.accept("f");
+
+        assertEquals(roverInExpectedPosition, rover);
     }
+
+    @Test
+    public void rover_moves_backward(){
+        int x=0,y=0;
+        Position position = Position.NORTH;
+        Rover rover = new Rover(x,y,position);
+        Rover roverInExpectedPosition = new Rover(x,-1,position);
+
+        rover = rover.accept("b");
+
+        assertEquals(roverInExpectedPosition, rover);
+    }
+
+    @Test
+    public void rover_turns_left(){
+        int x=0,y=0;
+        Position position = Position.NORTH;
+        Rover rover = new Rover(x,y,position);
+        Rover roverInExpectedPosition = new Rover(x,y,Position.WEST);
+
+        rover = rover.accept("l");
+
+        assertEquals(roverInExpectedPosition, rover);
+
+    }
+
 }
