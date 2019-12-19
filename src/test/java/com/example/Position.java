@@ -6,22 +6,44 @@ public enum Position {
         public Position turnLeft() {
             return SOUTH;
         }
+
+        @Override
+        public Position turnRight() {
+            return null;
+        }
     }, SOUTH {
         @Override
         public Position turnLeft() {
             return EAST;
+        }
+
+        @Override
+        public Position turnRight() {
+            return null;
         }
     }, EAST {
         @Override
         public Position turnLeft() {
             return NORTH;
         }
+
+        @Override
+        public Position turnRight() {
+            return null;
+        }
     }, NORTH {
         @Override
         public Position turnLeft() {
             return WEST;
         }
+
+        @Override
+        public Position turnRight() {
+            return EAST;
+        }
     };
 
     public abstract Position turnLeft();
+
+    public abstract Position turnRight();
 }
