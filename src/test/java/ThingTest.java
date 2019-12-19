@@ -62,7 +62,7 @@ public class ThingTest {
 
         rover = rover.accept("l");
 
-        assertEquals(roverInExpectedPosition, rover
+        assertEquals(roverInExpectedPosition, rover);
     }
 
 
