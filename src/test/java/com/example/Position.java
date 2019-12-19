@@ -1,5 +1,5 @@
 package com.example;
 
 public enum Position {
-    WEST, SOUTH, NORTH
+    WEST, SOUTH, EAST, NORTH
 }
