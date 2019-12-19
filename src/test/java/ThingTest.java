@@ -61,44 +61,19 @@ public class ThingTest {
         assertEquals(roverInExpectedPosition, rover);
     }
 
-    @Test
-    public void rover_turns_right_from_NORTH(){
+    @ParameterizedTest(name = "Turns from {0} to {1}")
+    @CsvSource({
+            "NORTH, EAST",
+            "EAST, SOUTH",
+            "SOUTH, WEST",
+            "WEST, NORTH"
+    })
+    public void rover_turns_right_from_NORTH(Position from, Position to){
         int x=0,y=0;
-        Rover rover = new Rover(x,y, Position.NORTH);
+        Rover rover = new Rover(x,y, from);
 
         rover = rover.accept("r");
 
-        assertEquals(new Rover(x,y,Position.EAST), rover);
+        assertEquals(new Rover(x,y,to), rover);
     }
-
-    @Test
-    public void rover_turns_right_from_EAST(){
-        int x=0,y=0;
-        Rover rover = new Rover(x,y, Position.EAST);
-
-        rover = rover.accept("r");
-
-        assertEquals(new Rover(x,y,Position.SOUTH), rover);
-    }
-
-    @Test
-    public void rover_turns_right_from_SOUTH(){
-        int x=0,y=0;
-        Rover rover = new Rover(x,y, Position.SOUTH);
-
-        rover = rover.accept("r");
-
-        assertEquals(new Rover(x,y,Position.WEST), rover);
-    }
-
-    @Test
-    public void rover_turns_right_from_WEST(){
-        int x=0,y=0;
-        Rover rover = new Rover(x,y, Position.WEST);
-
-        rover = rover.accept("r");
-
-        assertEquals(new Rover(x,y,Position.NORTH), rover);
-    }
-
 }
