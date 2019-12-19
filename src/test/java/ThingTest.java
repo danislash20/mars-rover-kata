@@ -76,4 +76,14 @@ public class ThingTest {
 
         assertEquals(new Rover(x,y,to), rover);
     }
+
+    @Test
+    public void rover_recieves_some_commands(){
+        int x=0,y=0;
+        Rover rover = new Rover(x,y, Position.NORTH);
+        rover = rover.accept("rr");
+
+        assertEquals(new Rover(x,y,Position.SOUTH), rover);
+
+    }
 }
