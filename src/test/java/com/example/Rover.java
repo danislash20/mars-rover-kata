@@ -37,6 +37,8 @@ public class Rover {
                 '}';
     }
 
+
+    //regla de los 3 strikes
     public Rover accept(String commands) {
         if (commands.equals("l")) {
             return new Rover(0,0,Position.WEST);

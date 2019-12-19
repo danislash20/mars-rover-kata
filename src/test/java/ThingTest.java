@@ -41,7 +41,7 @@ public class ThingTest {
     }
 
     @Test
-    public void rover_turns_left(){
+    public void rover_turns_left_from_NORTH(){
         int x=0,y=0;
         Position position = Position.NORTH;
         Rover rover = new Rover(x,y,position);
@@ -52,5 +52,18 @@ public class ThingTest {
         assertEquals(roverInExpectedPosition, rover);
 
     }
+
+    @Test
+    public void rover_turns_left_from_WEST(){
+        int x=0,y=0;
+        Position position = Position.WEST;
+        Rover rover = new Rover(x,y,position);
+        Rover roverInExpectedPosition = new Rover(x,y,Position.SOUTH);
+
+        rover = rover.accept("l");
+
+        assertEquals(roverInExpectedPosition, rover
+    }
+
 
 }
