@@ -19,7 +19,7 @@ public enum Position {
 
         @Override
         public Position turnRight() {
-            return null;
+            return WEST;
         }
     }, EAST {
         @Override
