@@ -45,6 +45,8 @@ public class Rover {
                 return new Rover(0,0,Position.SOUTH);
             } else if (this.position == Position.SOUTH){
                 return new Rover(0, 0, Position.EAST);
+            } else if (this.position == Position.EAST){
+                return new Rover(0, 0, Position.NORTH);
             }
             return new Rover(0,0,Position.WEST);
         }else
