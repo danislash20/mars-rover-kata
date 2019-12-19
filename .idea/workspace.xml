@@ -25,9 +25,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed289b19-95b2-4f09-aa71-bc10ae0ec63b" name="Default Changelist" comment="keep on running">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/Rover.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +72,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ThingTest">
+  <component name="RunManager" selected="JUnit.ThingTest">
     <configuration name="ThingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -237,26 +234,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1576618933310" />
-    <state x="424" y="6" key="CommitChangelistDialog2" timestamp="1576698217589">
+    <state x="424" y="6" key="CommitChangelistDialog2" timestamp="1576778479963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576698217589" />
-    <state width="1493" height="199" key="GridCell.Tab.0.bottom" timestamp="1576778257821">
+    <state x="424" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576778479963" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1576779421906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="199" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576778257821" />
-    <state width="1493" height="199" key="GridCell.Tab.0.center" timestamp="1576778257821">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576779421906" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1576779421906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="199" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576778257821" />
-    <state width="1493" height="199" key="GridCell.Tab.0.left" timestamp="1576778257821">
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576779421906" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1576779421906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="199" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576778257821" />
-    <state width="1493" height="199" key="GridCell.Tab.0.right" timestamp="1576778257821">
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576779421906" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1576779421906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="199" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576778257821" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576779421906" />
     <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1576698318536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -281,6 +278,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1576778440154" />
+    <state x="499" y="167" key="extract.method.dialog" timestamp="1576778907619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1576778907619" />
     <state x="511" y="46" key="refactoring.ChangeSignatureDialog" timestamp="1576695969566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -299,7 +300,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ThingTest.java</url>
-          <line>68</line>
+          <line>87</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

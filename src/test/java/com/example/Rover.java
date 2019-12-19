@@ -41,20 +41,12 @@ public class Rover {
     //regla de los 3 strikes
     public Rover accept(String commands) {
         if (commands.equals("l")) {
-            if(this.position == Position.WEST){
-                return new Rover(0,0,Position.SOUTH);
-            } else if (this.position == Position.SOUTH){
-                return new Rover(0, 0, Position.EAST);
-            } else if (this.position == Position.EAST){
-                return new Rover(0, 0, Position.NORTH);
-            } else if(this.position == Position.NORTH) {
-                return new Rover(0, 0, Position.WEST);
-            }
-        }else
-        if(commands.equals("b")){
-            return new Rover(x,y-1,position);
+            return new Rover(0, 0, this.position.turnLeft());
+        } else if (commands.equals("b")) {
+            return new Rover(x, y - 1, position);
 
         }
-        return new Rover(x,y+1,position);
+        return new Rover(x, y + 1, position);
     }
+
 }
