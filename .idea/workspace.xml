@@ -25,7 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed289b19-95b2-4f09-aa71-bc10ae0ec63b" name="Default Changelist" comment="keep on running">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ThingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/Rover.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,6 +159,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ThingTest.rover_turns_left_from_WEST" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ThingTest.rover_turns_left_from_WEST&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ThingTest" type="JUnit" factoryName="JUnit">
       <module name="mars-rover-kata.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -172,9 +196,11 @@
       <item itemvalue="Gradle.ThingTest.fail" />
       <item itemvalue="Gradle.ThingTest.no__fail2" />
       <item itemvalue="JUnit.ThingTest" />
+      <item itemvalue="Gradle.ThingTest.rover_turns_left_from_WEST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ThingTest.rover_turns_left_from_WEST" />
         <item itemvalue="Gradle.ThingTest" />
         <item itemvalue="Gradle.ThingTest.no__fail2" />
         <item itemvalue="Gradle.ThingTest.fail" />
@@ -228,10 +254,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1576695192953" />
-    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1576780965887">
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1576781015700">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1576780965887" />
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1576781015700" />
     <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1576618933310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -240,22 +266,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="424" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576778479963" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1576780756497">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1576782483382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576780756497" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1576780756497">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576782483382" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1576782483382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576780756497" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1576780756497">
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576782483382" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1576782483382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576780756497" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1576780756497">
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576782483382" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1576782483382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576780756497" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576782483382" />
     <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1576698318536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -306,7 +332,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ThingTest.java</url>
-          <line>98</line>
+          <line>132</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

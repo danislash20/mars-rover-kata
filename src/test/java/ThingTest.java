@@ -1,6 +1,9 @@
 import com.example.Position;
 import com.example.Rover;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
+import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -40,48 +43,22 @@ public class ThingTest {
         assertEquals(roverInExpectedPosition, rover);
     }
 
-    @Test
-    public void rover_turns_left_from_NORTH(){
+
+    @ParameterizedTest(name = "Turns from {0} to {1}")
+    @CsvSource({
+            "WEST, SOUTH",
+            "SOUTH, EAST",
+            "EAST, NORTH",
+            "NORTH, WEST",
+    })
+    public void rover_turns_left_from(Position from, Position to){
         int x=0,y=0;
-        Position position = Position.NORTH;
-        Rover rover = new Rover(x,y,position);
-        Rover roverInExpectedPosition = new Rover(x,y,Position.WEST);
+        Rover rover = new Rover(x,y,from);
+        Rover roverInExpectedPosition = new Rover(x,y,to);
 
         rover = rover.accept("l");
 
         assertEquals(roverInExpectedPosition, rover);
-
-    }
-
-    @Test
-    public void rover_turns_left_from_WEST(){
-        int x=0,y=0;
-        Position position = Position.WEST;
-        Rover rover = new Rover(x,y,position);
-        Rover roverInExpectedPosition = new Rover(x,y,Position.SOUTH);
-
-        rover = rover.accept("l");
-
-        assertEquals(roverInExpectedPosition, rover);
-    }
-
-    @Test
-    public void rover_turns_left_from_SOUTH(){
-        int x=0,y=0;
-        Rover rover = new Rover(x,y, Position.SOUTH);
-
-        rover = rover.accept("l");
-
-        assertEquals(new Rover(x,y,Position.EAST), rover);
-    }
-    @Test
-    public void rover_turns_left_from_EAST(){
-        int x=0,y=0;
-        Rover rover = new Rover(x,y, Position.EAST);
-
-        rover = rover.accept("l");
-
-        assertEquals(new Rover(x,y,Position.NORTH), rover);
     }
 
     @Test

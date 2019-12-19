@@ -46,9 +46,8 @@ public class Rover {
             return new Rover(0, 0, this.position.turnLeft());
         } else if (commands.equals("b")) {
             return new Rover(x, y - 1, position);
-
-        }
-        return new Rover(x, y + 1, position);
+        } else
+            return new Rover(x, y + 1, position);
     }
 
 }
