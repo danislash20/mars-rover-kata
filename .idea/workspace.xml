@@ -25,7 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed289b19-95b2-4f09-aa71-bc10ae0ec63b" name="Default Changelist" comment="keep on running">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/Rover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/Position.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
@@ -238,22 +239,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="424" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576778479963" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1576779421906">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1576780171505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576779421906" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1576779421906">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576780171505" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1576780171505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576779421906" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1576779421906">
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576780171505" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1576780171505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576779421906" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1576779421906">
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576780171505" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1576780171505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576779421906" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576780171505" />
     <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1576698318536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -270,6 +271,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576698318536" />
+    <state x="584" y="346" key="ReplaceDuplicatesPrompt" timestamp="1576779503327">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="584" y="346" key="ReplaceDuplicatesPrompt/0.0.1536.824@0.0.1536.824" timestamp="1576779503327" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1576772284437">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -278,10 +283,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1576778440154" />
-    <state x="499" y="167" key="extract.method.dialog" timestamp="1576778907619">
+    <state x="499" y="167" width="538" height="498" key="extract.method.dialog" timestamp="1576779499386">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="167" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1576778907619" />
+    <state x="499" y="167" width="538" height="498" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1576779499386" />
     <state x="511" y="46" key="refactoring.ChangeSignatureDialog" timestamp="1576695969566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

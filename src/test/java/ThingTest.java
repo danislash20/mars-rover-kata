@@ -84,5 +84,16 @@ public class ThingTest {
         assertEquals(new Rover(x,y,Position.NORTH), rover);
     }
 
+    @Test
+    public void rover_turns_right_from_NORTH(){
+        int x=0,y=0;
+        Rover rover = new Rover(x,y, Position.NORTH);
+
+        rover = rover.accept("r");
+
+        assertEquals(new Rover(x,y,Position.EAST), rover);
+    }
+
+
 
 }
