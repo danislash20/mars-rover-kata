@@ -43,7 +43,8 @@ public class Rover {
         if (commands.equals("l")) {
             if(this.position == Position.WEST){
                 return new Rover(0,0,Position.SOUTH);
-
+            } else if (this.position == Position.SOUTH){
+                return new Rover(0, 0, Position.EAST);
             }
             return new Rover(0,0,Position.WEST);
         }else
