@@ -114,4 +114,14 @@ public class ThingTest {
         assertEquals(new Rover(x,y,Position.WEST), rover);
     }
 
+    @Test
+    public void rover_turns_right_from_WEST(){
+        int x=0,y=0;
+        Rover rover = new Rover(x,y, Position.WEST);
+
+        rover = rover.accept("r");
+
+        assertEquals(new Rover(x,y,Position.NORTH), rover);
+    }
+
 }
